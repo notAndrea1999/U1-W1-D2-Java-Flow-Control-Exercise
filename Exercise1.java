@@ -5,14 +5,13 @@ public class Exercise1 {
         Scanner userInput = new Scanner(System.in);
         System.out.println("Digita una parola a tuo piacimento");
         String string1 = userInput.nextLine();
-        userInput.close();
         System.out.println(evenOrOdd(string1));
+        System.out.println("Digita un anno");
+        int number2 = userInput.nextInt();
+        System.out.println(leapYear(number2));
+        userInput.close();
 
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Digita un anno");
-//        int number2 = input.nextInt();
-//        System.out.println(leapYear(number2));
-//        input.close();
+        
     }
 
     public static boolean evenOrOdd(String s1) {
