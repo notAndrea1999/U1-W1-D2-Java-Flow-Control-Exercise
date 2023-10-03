@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercise1 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Digita una parola");
+        System.out.println("Digita una parola a tuo piacimento");
         String string1 = userInput.nextLine();
         userInput.close();
         System.out.println(evenOrOdd(string1));
